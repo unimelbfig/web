@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.navigation {
+  background-color: #d55ba2;
+  position: fixed;
+  z-index: 10;
+  width:100%;
+  height: 80px;
+  font-family: 'Open Sans';
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_link {
+  font-size: 20px;
+  /*background-color: coral;*/
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-size: 26px;
+  margin-left: 60px;
+  font-weight: 600;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+}
+
+.page_top {
+  background-color: #d55ba2;
+  height: 100vh;
+}
+
+.logo {
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* background-color: blue; */
+  user-drag: none; -moz-user-select: none; -webkit-user-drag: none;
+}
+
+.logodiv {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45%;
+}
+
+.sign_up {
+  position: absolute;
+  top: 30%;
+  left: 100px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: white;
+  font-size: 80px;
+}
+
+.sign_up_button {
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sign_up_text {
+  color: #d55ba2;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.about {
+  /* background-color: coral; */
+  height: 100%;
+  padding-bottom: 150px;
+}
+
+.about_contents {
+  height: 100%;
+  font-family: 'Open Sans';
+  color: #d55ba2;
+  /* background-color: coral; */
+  width: 60%;
+  margin-left: 100px;
+  padding-top: 150px;
+}
+
+.about_title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.about_text {
+  padding-top: 30px;
+  line-height: 35px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.partners {
+  background-color: rgba(225, 152, 194, .1);
+  opacity: 10%;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+.partners_content {
+  font-family: 'Open Sans';
+  color: #d55ba2;
+  margin-left: 100px;
+  padding-top: 150px;
+}
+
+.partners_title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.partners_container {
+  /* background-color: yellow; */
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.partner_block {
+  /* background-color: coral; */
+  background-color: white;
+  border-radius: 15px;
+  width: 300px;
+  margin-top: 40px;
+  height: 300px;
+  min-width: 300px;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  /* background-color: blue; */
+}
+
+.partner_block img {
+  max-height:90%;
+  max-width:90%;
+}
+
+.partner_text {
+  font-family: 'Open Sans';
+  color: #5f4210;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 5px;
+}
