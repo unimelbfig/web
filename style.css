@@ -148,6 +148,12 @@ body {
   margin-top: 40px;
   height: 300px;
   min-width: 300px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.partner_block:hover {
+  transform: scale(1.05);
 }
 
 .logo_container {
@@ -161,6 +167,7 @@ body {
 .partner_block img {
   max-height:90%;
   max-width:90%;
+  user-drag: none; -moz-user-select: none; -webkit-user-drag: none;
 }
 
 .partner_text {
