@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   min-height: 100%;
@@ -24,6 +28,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.nav_link a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .name {
@@ -136,7 +145,7 @@ body {
   display: flex;
   margin: auto;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   width: 90%;
 }
 
@@ -146,6 +155,7 @@ body {
   border-radius: 15px;
   width: 300px;
   margin-top: 40px;
+  margin-right: 40px;
   height: 300px;
   min-width: 300px;
   text-decoration: none;
@@ -196,7 +206,7 @@ body {
   /* background-color: red; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   width: 90%;
   margin-left: 100px;
   padding-top: 25px;
@@ -211,6 +221,7 @@ body {
   align-items: center;
   width: 400px;
   margin-top: 25px;
+  padding-right: 25px;
 }
 
 .committee_block img {
