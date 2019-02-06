@@ -87,19 +87,30 @@ body {
 }
 
 .sign_up_button {
-  margin-top: 20px;
+  position: absolute;
+
+  margin-top: 30px;
+  border: none;
   width: 200px;
   height: 60px;
-  background-color: white;
-  border-radius: 10px;
-}
 
-.sign_up_text {
+  border-radius: 10px;
+  background-color: white;
+
   color: #d55ba2;
+  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 22px;
   text-align: center;
   line-height: 60px;
+  text-decoration: none;
+
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.sign_up_button:hover {
+  transform: scale(1.03);
 }
 
 .about {
