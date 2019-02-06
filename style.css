@@ -227,7 +227,7 @@ body {
 .committee_block img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 3px solid #d55ba2;
 }
 .committee_block .member_text {
