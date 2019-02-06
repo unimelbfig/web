@@ -1,11 +1,11 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
+html, body {
   margin: 0;
   min-height: 100%;
   min-width: 100%;
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .navigation {
@@ -45,6 +45,7 @@ body {
 }
 
 .name {
+  white-space: nowrap;
   font-size: 26px;
   margin-left: 60px;
   font-weight: 600;
@@ -313,4 +314,43 @@ body {
   width: 100%;
   height: 50px;
   background-color: #d55ba2;
+}
+
+@media only screen and (max-width: 800px) {
+  .name {
+    font-size: 16px;
+    margin-left: 10px;
+    text-wrap
+  }
+
+  .nav_link {
+    font-size: 14px;
+  }
+
+  .sign_up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    left: 0;
+    height: 150px;
+    font-size: 50px;
+    width: 100%;
+    top: 20%;
+    margin: 0;
+  }
+
+  .sign_up_button {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .logodiv {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+  }
+
 }
