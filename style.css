@@ -361,9 +361,6 @@ html, body {
     width: 65%;
   }
 
-}
-
-@media only screen and (max-width: 760px) {
   .partners_title {
     text-align: center;
     position: relative;
@@ -375,16 +372,17 @@ html, body {
 
   .partners_container {
     background-color: coral;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
   }
 
   .partner_block {
     width: 100%;
-    min-width: 0px;
+    min-width: 0;
     height: 200px;
     width: 200px;
-    margin-right: 0px;
-
+    margin-right: 0;
   }
 
   .logo_container {
@@ -394,4 +392,5 @@ html, body {
     font-size: 15px;
 
   }
+
 }
