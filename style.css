@@ -364,13 +364,34 @@ html, body {
 }
 
 @media only screen and (max-width: 760px) {
-  .partners {
+  .partners_title {
     text-align: center;
     position: relative;
   }
-  
+
+  .partners_content {
+    margin: 0;
+  }
+
+  .partners_container {
+    background-color: coral;
+    justify-content: space-evenly;
+  }
+
   .partner_block {
     width: 100%;
-    position: relative;
+    min-width: 0px;
+    height: 200px;
+    width: 200px;
+    margin-right: 0px;
+
+  }
+
+  .logo_container {
+    height: 100px;
+  }
+  .partner_text {
+    font-size: 15px;
+
   }
 }
