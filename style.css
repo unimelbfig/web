@@ -361,4 +361,83 @@ html, body {
     width: 65%;
   }
 
+  .about_contents {
+    margin-left: 0px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    /* background-color: coral; */
+  }
+
+  .about_title {
+    font-size: 26px;
+  }
+
+  .about_text {
+    font-size: 16px;
+  }
+
+  .partners_title {
+    text-align: center;
+    position: relative;
+  }
+
+  .partners_content {
+    margin: 0;
+  }
+
+  .partners_container {
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+  }
+
+  .partner_block {
+    width: 100%;
+    min-width: 0;
+    height: 200px;
+    width: 200px;
+    margin-right: 0;
+  }
+
+  .logo_container {
+    height: 100px;
+  }
+
+  .partner_text {
+    font-size: 15px;
+  }
+
+  .committee_title {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .committee_content {
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .contact_title {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .contact_contents {
+    margin: auto;
+    width: 90%;
+    align-items: center;
+  }
+
+  .link {
+    justify-content: center;
+  }
+
+  .address {
+    text-align: center;
+  }
+
 }
