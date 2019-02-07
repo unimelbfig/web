@@ -362,3 +362,15 @@ html, body {
   }
 
 }
+
+@media only screen and (max-width: 760px) {
+  .partners {
+    text-align: center;
+    position: relative;
+  }
+  
+  .partner_block {
+    width: 100%;
+    position: relative;
+  }
+}
