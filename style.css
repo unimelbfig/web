@@ -361,6 +361,22 @@ html, body {
     width: 65%;
   }
 
+  .about_contents {
+    margin-left: 0px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    /* background-color: coral; */
+  }
+
+  .about_title {
+    font-size: 26px;
+  }
+
+  .about_text {
+    font-size: 16px;
+  }
+
   .partners_title {
     text-align: center;
     position: relative;
@@ -371,8 +387,7 @@ html, body {
   }
 
   .partners_container {
-    background-color: coral;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     margin: 0;
   }
@@ -388,9 +403,41 @@ html, body {
   .logo_container {
     height: 100px;
   }
+
   .partner_text {
     font-size: 15px;
+  }
 
+  .committee_title {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .committee_content {
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .contact_title {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .contact_contents {
+    margin: auto;
+    width: 90%;
+    align-items: center;
+  }
+
+  .link {
+    justify-content: center;
+  }
+
+  .address {
+    text-align: center;
   }
 
 }
