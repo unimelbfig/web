@@ -406,6 +406,7 @@ html, body {
 
   .partner_text {
     font-size: 15px;
+    padding-top: 10px;
   }
 
   .committee_title {
@@ -414,9 +415,13 @@ html, body {
     width: 90%;
   }
 
+  .committee_block {
+    align-items: center;
+  }
+
   .committee_content {
     margin: auto;
-    width: 90%;
+    width: 100%;
     justify-content: center;
   }
 
@@ -428,12 +433,11 @@ html, body {
 
   .contact_contents {
     margin: auto;
-    width: 90%;
-    align-items: center;
+    width: 80%;
   }
 
   .link {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .address {
