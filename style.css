@@ -207,6 +207,11 @@ html, body {
   padding-top: 5px;
 }
 
+.partners h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .committee {
   font-family: 'Open Sans';
   color: #d55ba2;
@@ -312,12 +317,27 @@ html, body {
   width: 100%;
   height: 50px;
   background-color: #d55ba2;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.footer h3 {
+  margin: 0;
+  margin-left: 20px;
+  font-family: 'Open Sans';
+  color: #fff;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 800px) {
   .name {
     font-size: 18px;
     margin-left: 0px;
+    text-align: center;
+  }
+
+  h2 {
     text-align: center;
   }
 
